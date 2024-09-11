@@ -1,0 +1,51 @@
+.card-container {
+  margin: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: 450px;
+  background-color: #fbf7e3;
+  border: 1px solid #fbf7e3;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.card-container img {
+  height: 65%;
+  object-fit: cover;
+}
+
+.card-container > img + div {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-container h2 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.card-container h3 {
+  margin-top: -16px;
+  margin-left: 2rem;
+  font-weight: 600;
+}
+
+.card-container p {
+  margin-top: 2rem;
+  font-size: 24px;
+}
+
+.card-container button {
+  width: 50%;
+  height: 35px;
+  margin: auto;
+  background-color: #f3df85;
+  border-radius: 50px;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 600;
+}
