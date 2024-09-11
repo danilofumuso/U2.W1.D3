@@ -16,7 +16,8 @@
   }
 
   .article-container h1 {
-    margin-block: 2.5rem 1.5rem;
+    margin-block-start: 2.5rem;
+    margin-block-end: 1.5rem;
   }
 
   .article-container p {
@@ -36,20 +37,25 @@
     align-items: center;
   }
 
+  .article-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*align item si da al contenitore, l'h1 sta al centro anche se dovrebbe stare a sinistra, dovrei cambiare la struttura dell'html! */
+  }
+
   .article-container img {
     width: 90%;
-    margin-block: 1.5rem;
-    margin-inline: 1.5rem;
+    margin-block-start: 1.5rem;
+    margin-block-end: 2.5rem;
     order: 1;
   }
 
   .article-container h1 {
-    margin-block: 2.5rem 1.5rem;
-    margin-left: 1.5rem;
-    text-align: left;
+    margin-block-start: 2.5rem;
+    margin-block-end: 1.5rem;
   }
 
   .article-container p {
-    margin-inline: 1.5rem;
+    width: 90%;
   }
 }

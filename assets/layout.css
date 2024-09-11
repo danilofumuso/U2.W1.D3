@@ -1,0 +1,29 @@
+body > p {
+  font-size: 64px;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 700;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-container {
+    border-radius: initial;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: -1rem;
+    gap: 2rem;
+  }
+
+  .container .card-container {
+    width: calc(50% - 2rem);
+  }
+}
